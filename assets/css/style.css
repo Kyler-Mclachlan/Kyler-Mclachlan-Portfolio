@@ -36,8 +36,10 @@ header {
     position: sticky;
     position: -webkit-sticky;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 50%;
+    background-size: cover;
     z-index: 9999;
+    top: 0;
 }
 
 .text_box {
@@ -50,17 +52,14 @@ header {
 /*Nav Styling*/
 
 header h1 {
+    display: flex;
     margin-left: 100px;
     flex-wrap: wrap;
     color:  rgb(49, 52, 61);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
 }
 
 header nav {
-    padding-top: 15px;
+    padding-top: 5px;
     margin-right: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
@@ -72,6 +71,9 @@ header nav {
 
 header nav ul {
     list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav ul li {
@@ -80,6 +82,8 @@ header nav ul li {
     flex-basis: (20%);
     padding-left: 20px;
     padding-top: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 header nav ul li a {
@@ -89,6 +93,7 @@ header nav ul li a {
     text-decoration-line: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 10px;
+    flex-wrap: wrap;
 }
 
 /*Hero*/
@@ -107,10 +112,21 @@ header nav ul li a {
 }
 
 .hero_text_container {
-    display: flex;
-    align-items: flex-end;
-    padding-right: 200px;
-    padding-bottom: 50px;
-    font-size: 48px;
+    font-size: 60px;
     position: static;
+    background-color: rgb(146, 203, 205);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-top: 225px;
+    margin-right: 100px;
+    font-style: bolder;
+}
+
+/*about_me Section*/
+
+
+.top_work_image{
+    width: 1000px;
+    display: flex;
 }
