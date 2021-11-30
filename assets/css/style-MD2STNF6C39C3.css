@@ -1,0 +1,116 @@
+/* webpage perimeter styling*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Universal Styling*/
+
+a {
+    color: #0c0808;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Background color for body */
+
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+
+/*Header Styling*/
+
+header {
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color: rgb(32, 77, 95);
+    justify-content: space-between;
+    font-size: 32px;
+    position: sticky;
+    position: -webkit-sticky;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+.text_box {
+    display: flex;
+    background-color: rgb(146, 203, 205) ;
+    border: 1px solid rgb(146, 203, 205) ;
+    flex-wrap: wrap ;
+}
+
+/*Nav Styling*/
+
+header h1 {
+    margin-left: 100px;
+    flex-wrap: wrap;
+    color:  rgb(49, 52, 61);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    flex-basis: (20%);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+header nav ul li a {
+    color: rgb(146, 203, 205);
+    font-size: larger;
+    text-decoration-color:rgb(146, 203, 205);
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+}
+
+/*Hero*/
+
+.hero {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/assets/images/textured_background_v2.jpg");
+    display: flex;
+    text-align: left;
+    position: relative;
+    justify-content: right;
+}
+
+.hero_text_container {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    font-size: 48px;
+    position: static;
+}
