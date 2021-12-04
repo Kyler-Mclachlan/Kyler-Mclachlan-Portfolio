@@ -93,7 +93,7 @@ header nav ul li a {
 /*Hero*/
 
 .hero {
-    height: 350px;
+    height: 15vw;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
@@ -106,9 +106,8 @@ header nav ul li a {
 }
 
 .hero_text_container {
-    font-size: 40px;
+    font-size: 2vw;
     position: static;
-    position: absolute;
     background-color: rgb(146, 203, 205);
     width: fit-content;
     height: fit-content;
@@ -116,22 +115,21 @@ header nav ul li a {
     margin-right: 100px;
     font-style: bolder;
     flex-grow: 10%;
+    justify-content: end;
 }
 
 /*about_me Section*/
 
 .about_me_section {
     display: flex; 
-    justify-content: space-around;
-    align-content: flex-end;
-    position: relative;
-    height: 400px;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 25px;
 }
 
 .section_title {
     display: flex;
-    align-content: flex-end;
-    padding-left: 30%;
+    padding-left: 16.7%;
     font-size: 35px;
     border-right: 10px rgb(93, 93, 107) solid;
     padding-right: 1.5%;
@@ -142,8 +140,7 @@ header nav ul li a {
 .about_me_text {
     display: flex;
     flex-wrap: wrap;
-    align-content: left;
-    font-size: 32px;
+    font-size: 1.55vw;
     padding-left: 1.5%;
     margin-left: 1.5%;
     padding-bottom: 25px;
@@ -151,30 +148,39 @@ header nav ul li a {
 
 /* Work Section */
 
-.work_section {
+.work_section{
     display: flex; 
-    justify-content: space-around;
-    align-content: flex-end;
-    position: relative;
-    height: 400px;
-    margin-top: 2.5%;
+    padding-top: 25px;
+    padding-left:0.75%;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.work_section_title {
+.work_section_title{
     display: flex;
-    align-content: flex-end;
-    padding-left: 14.87%;
+    padding-left: 16.7%;
     font-size: 35px;
     border-right: 10px rgb(93, 93, 107) solid;
     padding-right: 1.5%;
-    margin-left: -1.7%;
+    margin-left: -10%;
     color: rgb(44, 62, 63);
-    font-size: 36px;
 }
 
-.top_work_image{
-    width: 1000px;
-    display: flex;
-    align-items: flex-start;
+.first_work_example{
+    margin-right: 10px;
 }
 
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 100px;
+    background-color: black;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
