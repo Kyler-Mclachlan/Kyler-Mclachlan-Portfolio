@@ -167,12 +167,14 @@ header nav ul li a {
     font-size: 35px;
     border-right: 10px rgb(93, 93, 107) solid;
     padding-right: 1.5%;
-    margin-left: -10%;
+    margin-left: -1.7%;
     color: rgb(44, 62, 63);
+    font-size: 36px;
 }
 
 .top_work_image{
     width: 1000px;
     display: flex;
+    align-items: flex-start;
 }
 
