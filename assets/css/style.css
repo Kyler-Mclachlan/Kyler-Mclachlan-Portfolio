@@ -153,12 +153,11 @@ header nav ul li a {
     padding-top: 25px;
     padding-left:0.75%;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .work_section_title{
     display: flex;
-    padding-left: 16.7%;
+    padding-left: 16.2%;
     font-size: 35px;
     border-right: 10px rgb(93, 93, 107) solid;
     padding-right: 1.5%;
@@ -166,21 +165,65 @@ header nav ul li a {
     color: rgb(44, 62, 63);
 }
 
-.first_work_example{
-    margin-right: 10px;
-}
-
 
 .bottom-right {
+    display: flex;
     position: absolute;
     bottom: 8px;
     right: 16px;
     font-size: 100px;
-    background-color: black;
+    background-color: rgb(146, 203, 205);
 }
 
-.container{
+.container_largest{
+    display: flex;
     position: relative;
     text-align: center;
     color: white;
+    padding-left: 25px;
+}
+
+.largest_img{
+    width: 50vw;
+    padding-left: 50px;
+}
+
+.bottom-right_largest{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-left: 15.5%;
+}
+
+.container img{
+    display: flex;
+    width: 25vw;
+    padding-left: 3vw;
+}
+
+.container_2 img{
+    display: flex;
+    width: 25vw;
+}
+
+.container_2{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-left: 1.5%;
+}
+
+
+.img_box{
+    display: flex;
+    padding-left: 1.56%;
 }
