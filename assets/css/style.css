@@ -111,7 +111,7 @@ header nav ul li a {
     background-color: rgb(146, 203, 205);
     width: fit-content;
     height: fit-content;
-    margin-top: 225px;
+    margin-top: 12vw;
     margin-right: 100px;
     font-style: bolder;
     flex-grow: 10%;
@@ -124,7 +124,7 @@ header nav ul li a {
     display: flex; 
     justify-content: space-between;
     align-content: center;
-    padding-top: 25px;
+    padding-top: 5vw;
 }
 
 .section_title {
@@ -150,7 +150,7 @@ header nav ul li a {
 
 .work_section{
     display: flex; 
-    padding-top: 25px;
+    padding-top: 5vw;
     padding-left:0.75%;
     flex-wrap: wrap;
 }
@@ -177,7 +177,7 @@ header nav ul li a {
 
 .container_largest{
     display: flex;
-    position: relative;
+    position: static;
     text-align: center;
     color: white;
     padding-left: 25px;
@@ -191,7 +191,11 @@ header nav ul li a {
 .bottom-right_largest{
     display: flex;
     position: relative;
-    text-align: center;
+    bottom: 2.3vw;
+    left: 38.5vw;
+    font-size: 100px;
+    background-color: rgb(146, 203, 205);
+    width: fit-content;
     color: white;
 }
 
@@ -206,7 +210,7 @@ header nav ul li a {
 .container img{
     display: flex;
     width: 25vw;
-    padding-left: 3vw;
+    padding-left: 1.35vw;
 }
 
 .container_2 img{
@@ -226,4 +230,19 @@ header nav ul li a {
 .img_box{
     display: flex;
     padding-left: 1.56%;
+}
+
+footer{
+    display:flex;
+    padding-top: .5%;
+    padding-bottom: .5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color: rgb(32, 77, 95);
+    justify-content: space-between;
+    font-size: 32px;
+    position: sticky;
+    position: -webkit-sticky;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
 }
