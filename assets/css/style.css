@@ -32,7 +32,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     background-color: rgb(32, 77, 95);
     justify-content: space-between;
-    font-size: 32px;
+    font-size: 10vw;
     position: sticky;
     position: -webkit-sticky;
     background-attachment: fixed;
@@ -55,18 +55,19 @@ header {
     background-color: rgb(146, 203, 205) ;
     border: 1px solid rgb(146, 203, 205) ;
     flex-wrap: wrap ;
-    width: 350px;
+    width: 16vw;
     margin-bottom: 5px;
+    height: 3vw;
 }
 
 /*Nav Styling*/
 
 header h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 10vw;
     color: var(--primary-color);
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-    font-size: 55px;
+    font-size: 2vw;
     flex-wrap: nowrap;
 }
 
@@ -177,30 +178,33 @@ header nav ul li a {
 .bottom-right {
     display: flex;
     position: absolute;
-    bottom: 2vw;
-    right: -.1vw;
+    bottom: 2.5vw;
+    right: .5vw;
     font-size: 1vw;
     background-color: rgb(146, 203, 205);
+    border-radius: 10px;
 }
 
 .bottom-right-2 {
     display: flex;
     position: absolute;
-    bottom: -.1vw;
-    right: -.1vw;
+    bottom: 1.1vw;
+    right: 1vw;
     font-size: 1vw;
     background-color: rgb(146, 203, 205);
+    border-radius: 10px;
 }
 
 .bottom-right_largest{
     display: flex;
     position: relative;
-    bottom: 2.5vw;
-    left: 35.9vw;
+    bottom: 4vw;
+    left: 33.9vw;
     font-size: 2vw;
     background-color: rgb(146, 203, 205);
     width: fit-content;
     color: white;
+    border-radius: 10px;
 }
 
 
@@ -230,12 +234,14 @@ header nav ul li a {
 .container img{
     display: flex;
     width: 20vw;
+    border: 5.5px solid rgb(146, 203, 205);;
 }
 
 .container_2 img{
     display: flex;
     width: 20vw;
     height: 11vw;
+    border: 5.5px solid rgb(146, 203, 205);;
 }
 
 .container_2{
@@ -251,7 +257,7 @@ header nav ul li a {
 .contact_me {
     display: flex; 
     align-content: center;
-    padding-right: 26vw;
+    padding-right: 29.2vw;
     padding-bottom: 2vw;
     padding-top: 3vw;
     text-align: right;
@@ -263,4 +269,56 @@ header nav ul li a {
     font-size: 2vw;
     padding-right: 100px;
     padding-left: 10px;
+    border-top: 1;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    .text_box {
+        display: flex;
+        background-color: rgb(146, 203, 205) ;
+        border: 1px solid rgb(146, 203, 205) ;
+        flex-wrap: wrap ;
+        width: 16vw;
+        margin-bottom: 5px;
+        height: 3vw;
+    }
+    
+    /*Nav Styling*/
+    
+    header h1 {
+        margin: 0;
+        font-size: 10vw;
+        color: var(--primary-color);
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+        font-size: 2vw;
+        flex-wrap: nowrap;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+
+    .text_box {
+        display: flex;
+        background-color: rgb(146, 203, 205) ;
+        border: 1px solid rgb(146, 203, 205) ;
+        flex-wrap: wrap ;
+        width: 16vw;
+        margin-bottom: 5px;
+        height: 3vw;
+    }
+    
+    /*Nav Styling*/
+    
+    header h1 {
+        margin: 0;
+        font-size: 10vw;
+        color: var(--primary-color);
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+        font-size: 2vw;
+        flex-wrap: nowrap;
+    }
+    
 }
