@@ -107,7 +107,7 @@ header nav ul li a {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-    background-image: url("textured_background_v2.png");
+    background-image: url("./textured_background_v2.png");
     display: flex;
     text-align: left;
     position: relative;
