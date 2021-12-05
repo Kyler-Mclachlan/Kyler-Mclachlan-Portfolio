@@ -138,7 +138,7 @@ header nav ul li a {
 .section_title {
     display: flex;
     padding-left: 16.7%;
-    font-size: 35px;
+    font-size: 2vw;
     border-right: 10px rgb(93, 93, 107) solid;
     padding-right: 1.5%;
     margin-left: -10%;
@@ -166,7 +166,7 @@ header nav ul li a {
 .work_section_title{
     display: flex;
     padding-left: 16.2%;
-    font-size: 35px;
+    font-size: 2vw;
     border-right: 10px rgb(93, 93, 107) solid;
     padding-right: 1.5%;
     margin-left: -10%;
@@ -246,13 +246,17 @@ header nav ul li a {
     padding-left: 1vw;
 }
 
+/* contact me section */
+
 .contact_me {
     display: flex; 
     align-content: center;
-    padding-right: 42vw;
-    padding-top: 2vw;
+    padding-right: 26vw;
+    padding-bottom: 2vw;
+    padding-top: 3vw;
     text-align: right;
     align-items: flex-end;
+    font-size: 2vw;
 }
 
 .contact_me_a{
