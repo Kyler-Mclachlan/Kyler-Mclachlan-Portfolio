@@ -7,7 +7,7 @@ This project is my first attempt at making a website portolio. The portfilio sho
 If you wish to view the project simply click on the link below the image. Feel free to pull the repository (also linked below) if you wish to view the codebase. Thanks and please reach out to the email listed at the end of the document with any questions!
 
 # Image of website
-![plot](./assets/images/Capture_of_website.PNG)
+![plot](./assets/images/img_of_website.PNG)
 
 # Link to website
 
